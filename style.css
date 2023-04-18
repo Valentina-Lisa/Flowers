@@ -1,0 +1,226 @@
+/*обнуляем стили*/
+
+html,body {
+	margin: 0;
+	padding: 0;
+    border:0 ;
+    font-family: 'Marmelad', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+font-size: 100%;
+font-weight: normal;
+margin: 0;
+}
+
+
+/*установить рем*/
+html{
+    font-size: 62.5%;
+}
+
+/*Навигационное меню*/
+.nav-bar {
+width: 100%;
+height: 6rem; 
+background-color: #E1C6B4;
+margin: 0;
+padding: 0;
+}
+
+.nav-bar__li {
+    color: white;
+    list-style: none;
+    size: 2rem;
+    display: inline-block;
+    margin-left: 10rem;
+    margin-top: 2rem;
+} 
+
+.nav-bar__a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/*Первая секция*/
+
+.first-section {
+    width:100%;
+    height:50rem ;
+    background-image: url(src/img/04.jpg);
+    margin-top: 3rem;
+    margin-left: ;
+    background-size: 100%;
+}
+
+.first-section-container__h1 {
+margin: 0;
+padding: 0;
+font-size: 5rem;
+color: #c76767d4;
+position: relative;
+padding-top: 18rem;
+text-align: center;
+text-shadow: 1px 1px 2px #4f4848cc; 
+
+}
+.first__button {
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    font-weight: 700;
+    color: #d1a0a0;
+    background-color: #ffff;
+    text-decoration: none;
+    border: 0;
+    border-bottom: 2px solid #c76767d4;    
+    margin-top: 15rem;
+    margin-left: 55rem;
+    
+    
+}
+
+.first__button:hover {
+    background-color: #E1C6B4;
+    color: white;
+}
+/*Вторая секция*/ 
+
+.second-section {
+    width: 110rem;
+    height: 14rem;
+    margin-left: 8rem;
+}
+
+.second-section__li {
+    color: white;
+    list-style: none;
+    size: 2rem;
+    display: inline-block;
+    margin-left: 8rem;
+    margin-top: 7rem;
+} 
+
+.second-section__a {
+    text-decoration: none;
+    color: #4f4848cc;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Третья секция*/
+
+.third-section {
+    width: 110rem ;
+    height: 22rem ;
+    margin-left: 8rem;
+}
+
+.col-1-of-3 {
+    background-image: url(src/img/3.jpg);
+    background-size: cover;
+    width:30rem;
+    height: 20rem;
+    border-radius: .5rem;
+    box-shadow: .2rem .2rem 1rem black;
+}
+.col-2-of-3 {
+    background-image: url(src/img/2.jpg);
+    background-size:cover;
+    width:30rem;
+    height: 20rem;
+    border-radius: .5rem;
+    box-shadow: .2rem .2rem 1rem black;
+}
+.col-3-of-3 {
+    background-image: url(src/img/4.jpg);
+    background-size: cover;
+    width:30rem;
+    height: 20rem;
+    border-radius: .5rem;
+    box-shadow: .2rem .2rem 1rem black;
+}
+
+.row__third {
+   display: flex;
+   justify-content: space-around;
+}
+
+
+
+ /*Отступы иконок*/
+ .fa-solid fa-truck-fast {
+    left: 1rem;
+ }
+
+ /*четвертая секция*/
+
+ .fourth-cection {
+    width: 110rem;
+    height: 25rem;
+    margin-left: 8rem;
+ }
+
+ .wrapper-choice__text {
+    width: 110rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+
+ }
+ 
+ .block-choice__a {
+    text-decoration: none;
+    color:#4f4848cc;
+ }
+
+ .block-choice {
+    font-size: 2rem;
+ }
+
+ .wrapper-choice__picture{
+   display: flex;
+   justify-content: space-between;
+   
+ }
+
+ .block-choise__picture {
+    width: 20rem;
+    height: 25rem;
+    background-color: rgb(199, 133, 133);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+ }
+
+ .choice-kard__one {
+    background-image: url(src/img/1..jpg);
+    background-size: cover;
+ }
+ .choice-kard__two {
+    background-image: url(src/img/2..jpg);
+    background-size: cover;
+ }
+ 
+ .choice-kard__three {
+    background-image: url(src/img/3..jpg);
+    background-size: cover;
+ }
+ 
+ .choice-kard__four {
+    background-image: url(src/img/4..jpg);
+    background-size: cover;
+ }
+ 
+ .choice-kard__five {
+    background-image: url(src/img/5..jpg);
+    background-size: cover;
+ }
+ 
